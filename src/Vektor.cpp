@@ -1,20 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////
-// Praktikum Informatik 1 
-// 
-// Versuch 04: Einfuehrung Klasse
-//
-// Datei:  Vektor.cpp
-// Inhalt: Sourcedatei der Klasse Vektor
-//////////////////////////////////////////////////////////////////////////////
-
 #include "Vektor.h"
 #include <cmath>
 #include <iomanip>
 
-const double pi = 3.14159265358979323846;
+const double pi = M_PI;
 
 /**
- * @brief Konstruktor, der ein neuen Vektor mit x, y und z Komponenten erstellt
+ * @brief Konstruktor, der ein neuer Vektor mit x, y und z Komponenten erstellt
  *
  * @param inX eine Gleitkommazahl
  * @param inY eine Gleitkommazahl

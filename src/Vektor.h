@@ -1,13 +1,3 @@
-//
-// Praktikum Informatik 1 
-// 
-// Versuch 04: Einf�hrung Klasse
-//
-// Datei:  Vektor.h
-// Inhalt: Headerdatei der Klasse Vektor
-//
-
-
 #ifndef Vektor_H
 #define Vektor_H
 
@@ -15,7 +5,7 @@
 #include <cmath>
 #include <iomanip>
 
-// extern const double pi = 3.14159265;
+extern const double pi;
 
 class Vektor
 {
